@@ -1,9 +1,14 @@
 import React from 'react'
-
-function footer() {
+import '../css/footer.css';
+function Footer() {
   return (
-    <div>Powered by Metadome.ai</div>
+    <div>
+     <hr className="footer-line" />
+      <p className="footer-text">Powered by Metadome.ai</p>
+
+      
+      </div>
   )
 }
 
-export default footer
+export default Footer
